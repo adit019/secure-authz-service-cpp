@@ -1,0 +1,8 @@
+﻿build/
+*.o
+*.obj
+*.pdb
+*.exe
+.cache/
+.vscode/
+.idea/
