@@ -109,9 +109,6 @@ Run unit tests and load test
 
 Artifact: (optional) add later
 
-🤝 Contributing
-This is a portfolio/educational repo. Please open issues for suggestions; PRs may be selectively accepted.
-
 📜 License
 Copyright © 2025 Adit Sharma.
 All rights reserved. See LICENSE.
