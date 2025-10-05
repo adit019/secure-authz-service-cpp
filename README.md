@@ -47,20 +47,20 @@ macOS (brew): brew install openssl
 
 ## 🔍 Example Results
 
-### 🔒 Secure Authentication Flow
+###  Secure Authentication Flow
 Demonstrates salted SHA-256 hashing, user verification, and role-based access (RBAC) for “admin” users.
 
-![Authentication Flow](assets/auth_flow.png)
+![Authentication Flow](assets/auth_flow.png.png)
 
-### ⚙️ Load Test Results
+###  Load Test Results
 Shows 100% success over 10,000 requests (load-tested with 100 concurrent sessions).
 
-![Load Test Results](assets/load_test.png)
+![Load Test Results](assets/load_test.png.png)
 
-### 🧠 SDL Security Validation
+###  SDL Security Validation
 Verifies code meets secure development lifecycle (SDL) standards — zero warnings, zero errors.
 
-![SDL Scan Results](assets/sdl_check.png)
+![SDL Scan Results](assets/sdl_check.png.png)
 
 ---
 
