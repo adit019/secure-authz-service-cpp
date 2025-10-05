@@ -50,7 +50,7 @@ macOS (brew): brew install openssl
 ###  Secure Authentication Flow
 Demonstrates salted SHA-256 hashing, user verification, and role-based access (RBAC) for “admin” users.
 
-![Authentication Flow](assets/secure-3.png)
+![Authentication Flow](assets/sec.png)
 
 ---
 
