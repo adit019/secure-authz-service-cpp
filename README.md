@@ -85,7 +85,7 @@ Memory Safety / UAF
 
 Mitigation: C++17 RAII, thread-safe store, CI sanitizers/Valgrind guidance.
 
-See docs/THREAT_MODEL.md for details.
+See (docs/THREAT_MODEL.md) for details.
 
  Debugging & Verification
 gdb: gdb --args ./build/auth_service → run → bt on crash
