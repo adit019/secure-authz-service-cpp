@@ -15,7 +15,7 @@ A high-performance **identity service** showcasing **AuthN/AuthZ** patterns in m
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 `	ext
  Client CLI / Tests
@@ -45,22 +45,22 @@ macOS (brew): brew install openssl
 
 ---
 
-## 🔍 Example Results
+##  Example Results
 
 ###  Secure Authentication Flow
 Demonstrates salted SHA-256 hashing, user verification, and role-based access (RBAC) for “admin” users.
 
-![Authentication Flow](assets/auth_flow.png.png)
+![Authentication Flow](assets/assetsauth_flow.png.png)
 
 ###  Load Test Results
 Shows 100% success over 10,000 requests (load-tested with 100 concurrent sessions).
 
-![Load Test Results](assets/load_test.png.png)
+![Load Test Results](assets/assetsload_test.png.png) 
 
 ###  SDL Security Validation
 Verifies code meets secure development lifecycle (SDL) standards — zero warnings, zero errors.
 
-![SDL Scan Results](assets/sdl_check.png.png)
+![SDL Scan Results](assets/assetssdl_check.png.png)
 
 ---
 
