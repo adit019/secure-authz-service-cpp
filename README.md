@@ -52,16 +52,6 @@ Demonstrates salted SHA-256 hashing, user verification, and role-based access (R
 
 ![Authentication Flow](assets/assetsauth_flow.png.png)
 
-###  Load Test Results
-Shows 100% success over 10,000 requests (load-tested with 100 concurrent sessions).
-
-![Load Test Results](assets/assetsload_test.png.png) 
-
-###  SDL Security Validation
-Verifies code meets secure development lifecycle (SDL) standards — zero warnings, zero errors.
-
-![SDL Scan Results](assets/assetssdl_check.png.png)
-
 ---
 
 Build
