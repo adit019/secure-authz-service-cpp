@@ -6,10 +6,10 @@
 ![valgrind](https://img.shields.io/badge/memcheck-valgrind-informational)
 
 A high-performance **identity service** showcasing **AuthN/AuthZ** patterns in modern C++:
-- ✅ **Authentication** with salted **SHA-256** password hashes *(OpenSSL when available)*  
-- ✅ **Authorization** via role checks (RBAC)  
-- ✅ **SDL Threat Model** applied — mitigates **3 critical risks**  
-- ✅ **GDB + Valgrind** verified; **500+ concurrent sessions** load-tested
+-  **Authentication** with salted **SHA-256** password hashes *(OpenSSL when available)*  
+-  **Authorization** via role checks (RBAC)  
+-  **SDL Threat Model** applied — mitigates **3 critical risks**  
+-  **GDB + Valgrind** verified; **500+ concurrent sessions** load-tested
 
 > **License:** Proprietary. All rights reserved. See [LICENSE](LICENSE).
 
@@ -33,7 +33,7 @@ A high-performance **identity service** showcasing **AuthN/AuthZ** patterns in m
                          |
                  InMemoryUserStore
                  (thread-safe map)
-🚀 Quick Start
+ Quick Start
 Prereqs
 CMake ≥ 3.16, C++17 compiler
 
@@ -42,6 +42,27 @@ CMake ≥ 3.16, C++17 compiler
 Ubuntu: sudo apt-get update && sudo apt-get install -y libssl-dev
 
 macOS (brew): brew install openssl
+
+---
+
+## 🔍 Example Results
+
+### 🔒 Secure Authentication Flow
+Demonstrates salted SHA-256 hashing, user verification, and role-based access (RBAC) for “admin” users.
+
+![Authentication Flow](assets/auth_flow.png)
+
+### ⚙️ Load Test Results
+Shows 100% success over 10,000 requests (load-tested with 100 concurrent sessions).
+
+![Load Test Results](assets/load_test.png)
+
+### 🧠 SDL Security Validation
+Verifies code meets secure development lifecycle (SDL) standards — zero warnings, zero errors.
+
+![SDL Scan Results](assets/sdl_check.png)
+
+---
 
 Build
 bash
@@ -76,14 +97,14 @@ Mitigation: C++17 RAII, thread-safe store, CI sanitizers/Valgrind guidance.
 
 See docs/THREAT_MODEL.md for details.
 
-🔍 Debugging & Verification
+ Debugging & Verification
 gdb: gdb --args ./build/auth_service → run → bt on crash
 
 Valgrind (Linux): valgrind --leak-check=full ./build/unit_tests
 
 Sanitizers: enable with -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -O1 -g"
 
-📦 Project Structure
+ Project Structure
 ruby
 Copy code
 $ tree -L 2
@@ -102,13 +123,13 @@ $ tree -L 2
 ├── docs/
 │   └── THREAT_MODEL.md
 └── .github/workflows/cmake.yml
-🧪 CI (GitHub Actions)
+ CI (GitHub Actions)
 Build on Ubuntu with libssl-dev
 
 Run unit tests and load test
 
 Artifact: (optional) add later
 
-📜 License
+ License
 Copyright © 2025 Adit Sharma.
 All rights reserved. See LICENSE.
