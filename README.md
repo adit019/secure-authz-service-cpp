@@ -122,4 +122,4 @@ Artifact: (optional) add later
 
  License
 Copyright © 2025 Adit Sharma.
-All rights reserved. See LICENSE.
+All rights reserved. See [LICENSE](LICENSE).
